@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="/dist/output.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <div id="app" class="flex h-screen items-center justify-center">
+        <div class="bg-white p-6 rounded-lg shadow-lg w-96">
+          <h1 class="text-3xl font-semibold mb-6 text-center text-gray-800">Todo App</h1>
+          
+          <div class="flex space-x-2 mt-4">
+            <input id="task-input" type="text" class="border rounded-l p-2 flex-grow focus:outline-none" placeholder="Enter task">
+            <button id="add-button" class="bg-blue-500 text-white px-4 py-2 rounded-r hover:bg-blue-600 transition duration-300">Add</button>
+          </div>
+          <ul id="task-list" class="space-y-2">
+            <!-- Tasks will be displayed here -->
+          </ul>
+        </div>
+      </div>
+      <script src="app.js"></script>
+</body>
+</html>
